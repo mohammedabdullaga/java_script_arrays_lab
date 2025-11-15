@@ -27,3 +27,12 @@ console.log('Exercise 9 result:', allFoods)
 
 let hasSoup = foods.includes('soup')
 console.log('Exercise 10 result:', hasSoup);
+
+const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90]
+let odd=[];
+for (let i=0; i<nums.length; i++) {
+  if (nums[i] % 2 === 1) {
+    odd.push(nums[i])
+  }
+}   
+console.log('Exercise 11 result:', odd);    
